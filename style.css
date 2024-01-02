@@ -1,61 +1,116 @@
 /**** RESET ****/
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
-}
-
-/**** UTILITY ****/
-.flex-container {
-	display: flex;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
-
+	margin: 0;
+	background-image: url("images/hero.png");
+	background-size: cover;
+	height: 340px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .title {
-
+	margin: 0;
+	font-size: 2rem;
+	color: #FFFFFF;
+	border-radius: 10px;
+	background: #1D3557;
+	padding: 0.1em 0.5em;
 }
 
 .subtitle {
-
+	font-size: 1.125rem;
+	color: #FFFFFF;
+	background: #457B9D;
+	padding: 0.25em 1.5em;
+	border-radius: 10px;
+	width: 412px;
 }
 
 .activities {
-
+	padding: 30px;
+	background: #F1FAEE;
+	color: #1D3557;
 }
+
+.activities > h2 {
+	margin: 0 auto 2em;
+	font-size: 1.5rem;
+}
+
+.activities-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 
 .activity-pane {
 
 }
 
 .activity-image {
-
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto;
 }
 
 .activity-title {
-
+	font-size: 1rem;
+	margin: 1em auto;
+	max-width: 160px;
 }
 
 .activity-description {
-
+	max-width: 200px;
 }
 
 .guide {
+	margin: 50px auto;
+	width: 400px;
+	border-radius: 10px;
+	background: #A8DADC;
+	box-shadow: 0px 6px 0px 0px #1D3557;
+	padding: 13px;
+	color: #1D3557;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: row;
+}
 
+.guide-info {
+	text-align: center;
+	margin-left: 5px;
 }
 
 .guide-image {
-
+	margin: 10px 0;
+	display: block;
+	width: 180px;
 }
 
 .guide-title {
-
+	margin: 1em auto;
+	font-size: 1.5rem;
 }
 
 .guide-quote {
-
+	font-style: italic;
 }
 
 .guide-name {
-
+	font-weight: bold;
+	font-size: 1rem;
 }
