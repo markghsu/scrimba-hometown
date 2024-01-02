@@ -1,0 +1,61 @@
+/**** RESET ****/
+body {
+	margin: 0;
+}
+
+/**** UTILITY ****/
+.flex-container {
+	display: flex;
+}
+
+.hero {
+
+}
+
+.title {
+
+}
+
+.subtitle {
+
+}
+
+.activities {
+
+}
+
+.activity-pane {
+
+}
+
+.activity-image {
+
+}
+
+.activity-title {
+
+}
+
+.activity-description {
+
+}
+
+.guide {
+
+}
+
+.guide-image {
+
+}
+
+.guide-title {
+
+}
+
+.guide-quote {
+
+}
+
+.guide-name {
+
+}
